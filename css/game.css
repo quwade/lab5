@@ -1,0 +1,14 @@
+.background    { background: rgb(157, 144, 182);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.water          { background: rgb(44, 153, 249); }
+.wall          { background: white;   }
+.floater       { background: rgb(155, 255, 205); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
